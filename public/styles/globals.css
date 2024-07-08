@@ -1,0 +1,41 @@
+@import '@fontsource/nunito-sans/400.css';
+@import '@fontsource/nunito-sans/600.css';
+@import '@fontsource/nunito-sans/700.css';
+
+html {
+  height: 100%;
+  font-size: 8px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button {
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.inline-flex {
+  display: inline-flex;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
